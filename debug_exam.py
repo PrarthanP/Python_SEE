@@ -50,9 +50,9 @@ def uniqueUpdate(data1, data2):
                 dupKeys[k] = [v1, v2]
                 # Remove (k, v1) from data1
                 del data1[k]
-         else:
-             # Add (k, v2) to data1
-             data1[k] = v2
+        else:
+            # Add (k, v2) to data1
+            data1[k] = v2
     # After processing all (k, v2) in
     # data2, return the dictionary
     return dupKeys
@@ -92,7 +92,7 @@ dup (the dictionary returned)
 '''
 
 import sys
-if __name__ == '__main__':
+if _name_ == '_main_':
     data1 = {}
     n1 = int(input())
     for _ in range(n1):
